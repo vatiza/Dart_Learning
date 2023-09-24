@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   // String? name = stdin.readLineSync();
   // int? age = int.parse(stdin.readLineSync()!);
