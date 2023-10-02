@@ -1,13 +1,24 @@
-class persion{
-  
-  void prointer(String name1,int age){
-    print(name1);
-    print(age);
+class Person {
+  String? name;
+  double? phone;
+  bool? isMarried;
+  int? age;
+
+  void displayInfo() {
+    print("Person name: $name.");
+    print("Phone number: $phone.");
+    print("Married: $isMarried.");
+    print("Age: $age.");
   }
 }
+
 void main(){
-  persion r=new persion();
-  r.prointer('Rakibur',18);
+  Person obj= new Person();
+  obj.age=23;
+  obj.name="Rakibur";
+  obj.phone=12564;
+  obj.isMarried=true;
+obj.displayInfo();
 
 
 }
