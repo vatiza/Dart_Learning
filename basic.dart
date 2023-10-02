@@ -14,7 +14,7 @@ class Person {
 
 void main(){
   Person obj= new Person();
-  obj.age=23;
+  // obj.age=23;
   obj.name="Rakibur";
   obj.phone=12564;
   obj.isMarried=true;
