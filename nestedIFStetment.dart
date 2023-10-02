@@ -1,17 +1,16 @@
-void main(){
-  bool isWeekend=true;
-  String weather='rainday';
-  if(isWeekend){
-    if(weather=='sunny'){
+void main() {
+  //netsted loop if statement
+  bool isWeekend = true;
+  String weather = 'rainday';
+  if (isWeekend) {
+    if (weather == 'sunny') {
       print('Lets to go to inside home');
-    }
-    else{
+    } else {
       print('no find sun');
     }
-    if(weather=='rainday'){
+    if (weather == 'rainday') {
       print('if you going to outside? Please carrying umbrella! ');
-    }
-    else{
+    } else {
       print('today is sunny');
     }
   }
