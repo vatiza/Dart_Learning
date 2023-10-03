@@ -23,8 +23,6 @@ main(){
     case 5:
     print('You have chosen Lemonade. Enjoy your drink!');
     break;
-
-
   }
   
 }
